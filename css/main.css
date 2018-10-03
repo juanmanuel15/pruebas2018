@@ -1,0 +1,55 @@
+body {
+    font-size: 28px;
+}
+
+div{
+    height: 320px;
+    width: 100%;    
+}
+
+img {
+    display: block;
+    margin: auto;
+    height: 100%;
+    width: 80%;
+    margin-bottom: 0;
+
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.navegador {
+    top:0;
+    padding: 0;
+    margin-bottom: 0;
+}
